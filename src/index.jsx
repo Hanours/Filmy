@@ -4,6 +4,10 @@ import './style.css';
 import Articles from './components/Articles';
 import Reviews from './components/Reviews';
 import Home from './components/Home';
+import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-dom';
+
+
+
 
 const App = () => {
   return (
