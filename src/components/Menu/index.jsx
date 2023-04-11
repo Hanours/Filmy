@@ -3,16 +3,16 @@ import './style.css';
 import {Link} from 'react-router-dom';
 
 
-
 const Menu = () => (
-
-    <div className="container">
+    <div className="menu">
             <h1>Menu</h1>
         <nav>   
+            <Link to='/'>Domů</Link>
+           
             <Link to='/reviews'>Recenze</Link>
-            <span> | </span>
+            
             <Link to='/articles'>Články</Link>
-            <span> | </span>
+           
             <Link to='/movies'>Filmy</Link>
         </nav>  
     </div>

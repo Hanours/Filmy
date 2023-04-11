@@ -6,6 +6,7 @@ import Reviews from './components/Reviews';
 import Movies from './components/Movies';
 import Menu from './components/Menu';
 import Home from './components/Home';
+import Movie from './components/Movie';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 
 
@@ -30,10 +31,10 @@ const router = createBrowserRouter([
       element: <App/>,
       children: [
     
-    // {
-    //   path: '/',
-    //   element: <Home/>
-    // },
+     {
+      path: '/',
+      element: <Home/>
+      },
       {
         path: '/reviews',
         element: <Reviews/>
@@ -46,6 +47,12 @@ const router = createBrowserRouter([
       {
         path: '/movies',
         element: <Movies/>,
+        children:[
+          {
+            path: '/movies/:id',
+            element: <Movie/>
+          }
+        ]
       },
     ],
   },

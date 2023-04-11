@@ -3,7 +3,7 @@ import './style.css';
 
 const Home = () => (
 
-    <>
+    <div className="container">
         <h1>Vítejte na našem webu s filmy!</h1>
         <p> Najdete zde širokou škálu filmů různých žánrů, od akčních thrillerů až po romantické komedie. 
             Naše kolekce obsahuje tisíce filmů, ať už se jedná o nejnovější trháky nebo klasické filmy, které si můžete znovu a znovu vychutnat.</p>
@@ -14,7 +14,7 @@ const Home = () => (
         <p>Přidejte se k nám a užijte si skvělé filmy s rodinou a přáteli nebo se jednoduše zrelaxujte po náročném dni. 
             Nezapomeňte, že si můžete nastavit svůj účet a přidat si své oblíbené filmy, které se budou zobrazovat na vaší osobní stránce.
             Nyní zahajte svou filmovou cestu a užijte si svůj oblíbený film na našem webu.</p>
-    </>
+    </div>
 )
 
 
